@@ -9,8 +9,6 @@ map({ "n", "v" }, "<C-u>", "<C-u>zz", { noremap = true, desc = "Page Up" })
 map("i", "kj", "<Esc>")
 map({ "n", "v" }, "<Leader>ss", ":write<CR>", { noremap = true, desc = "Save Buffer" })
 map({ "n", "v" }, "<Leader>sa", ":wa<CR>", { noremap = true, desc = "Save All Buffers" })
-map("n", "<Enter>", "o<C-c>", { noremap = true })
-map("n", "<S-Enter>", "O<C-c>", { noremap = true })
 
 map(
     { "n", "v" },
